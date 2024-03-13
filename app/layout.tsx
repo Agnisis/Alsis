@@ -28,6 +28,7 @@ export default async function RootLayout({
           <ToasterProvider />
           <ModalProvider />
           {children}
+          <Analytics />
         </body>
       </html>
     </ClerkProvider>
